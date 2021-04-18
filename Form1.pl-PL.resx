@@ -1,0 +1,186 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>57, 24</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tytuł</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>62, 24</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>173, 24</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Dodatkowy Tekst</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Dodaj tekst</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.4.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel2.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Inset</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>232, 19</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Zmien</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>67, 99</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>51, 25</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>232, 93</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Zmien</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>74, 25</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>37, 25</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Tło</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>196, 24</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ustawienia Kolorów</value>
+  </data>
+  <data name="Filemenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>55, 29</value>
+  </data>
+  <data name="Filemenuitem.Text" xml:space="preserve">
+    <value>Plik</value>
+  </data>
+  <data name="newmenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>242, 34</value>
+  </data>
+  <data name="newmenuitem.Text" xml:space="preserve">
+    <value>Nowy</value>
+  </data>
+  <data name="openmenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>242, 34</value>
+  </data>
+  <data name="openmenuitem.Text" xml:space="preserve">
+    <value>Otwarty</value>
+  </data>
+  <data name="savemenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>242, 34</value>
+  </data>
+  <data name="savemenuitem.Text" xml:space="preserve">
+    <value>Zapisać</value>
+  </data>
+  <data name="Settingsmenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>112, 29</value>
+  </data>
+  <data name="Settingsmenuitem.Text" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="Languagemenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>155, 34</value>
+  </data>
+  <data name="Languagemenuitem.Text" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="Englishmenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>185, 34</value>
+  </data>
+  <data name="Englishmenuitem.Text" xml:space="preserve">
+    <value>Angielski</value>
+  </data>
+  <data name="Polishmenuitem.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>185, 34</value>
+  </data>
+  <data name="Polishmenuitem.Text" xml:space="preserve">
+    <value>Polski</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Projektant Okładek</value>
+  </data>
+</root>
